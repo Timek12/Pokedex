@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="pokemonCard" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10.0" style="-fx-border-color: black; -fx-border-width: 2; -fx-padding: 10; -fx-background-color: #f0f0f0;" maxWidth="300">
+    <children>
+        <ImageView fx:id="pokemonImage" fitHeight="120.0" fitWidth="100.0" style="-fx-background-color: #f0f0f0;" />
+        <Label fx:id="pokemonName" text="Pokemon Name">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="pokemonTypes" text="Types: " />
+        <Label fx:id="pokemonHeight" text="Size: " />
+        <Label fx:id="pokemonWeight" text="Weight: " />
+        <Label fx:id="pokemonAttacks" text="Attacks: " />
+        <Label fx:id="pokemonEvolutions" text="Evolutions: " />
+    </children>
+</VBox>

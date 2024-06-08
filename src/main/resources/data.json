@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Pikachu",
+    "size": {
+      "height": 0.4,
+      "weight": 6.0
+    },
+    "types": ["Electric"],
+    "attacks": [
+      {
+        "name": "Thunder Shock",
+        "description": "A jolt of electricity crashes down on the target."
+      },
+      {
+        "name": "Quick Attack",
+        "description": "An almost invisibly fast attack that always goes first."
+      }
+    ],
+    "evolutions": ["Raichu"]
+  },
+  {
+    "name": "Charmander",
+    "size": {
+      "height": 0.6,
+      "weight": 8.5
+    },
+    "types": ["Fire"],
+    "attacks": [
+      {
+        "name": "Ember",
+        "description": "The target is attacked with small flames."
+      },
+      {
+        "name": "Scratch",
+        "description": "Hard, pointed, and sharp claws rake the target."
+      }
+    ],
+    "evolutions": ["Charmeleon", "Charizard"]
+  },
+  {
+    "name": "Bulbasaur",
+    "size": {
+      "height": 0.7,
+      "weight": 6.9
+    },
+    "types": ["Grass", "Poison"],
+    "attacks": [
+      {
+        "name": "Vine Whip",
+        "description": "The target is struck with slender, whiplike vines to inflict damage."
+      },
+      {
+        "name": "Razor Leaf",
+        "description": "Sharp-edged leaves are launched to slash at the target."
+      }
+    ],
+    "evolutions": ["Ivysaur", "Venusaur"]
+  },
+  {
+    "name": "Squirtle",
+    "size": {
+      "height": 0.5,
+      "weight": 9.0
+    },
+    "types": ["Water"],
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "description": "The target is blasted with a forceful shot of water."
+      },
+      {
+        "name": "Tackle",
+        "description": "A physical attack in which the user charges and slams into the target."
+      }
+    ],
+    "evolutions": ["Wartortle", "Blastoise"]
+  },
+  {
+    "name": "Jigglypuff",
+    "size": {
+      "height": 0.5,
+      "weight": 5.5
+    },
+    "types": ["Normal", "Fairy"],
+    "attacks": [
+      {
+        "name": "Sing",
+        "description": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber."
+      },
+      {
+        "name": "Pound",
+        "description": "The target is physically pounded with a long tail or a foreleg."
+      }
+    ],
+    "evolutions": ["Wigglytuff"]
+  },
+  {
+    "name": "Psyduck",
+    "size": {
+      "height": 0.8,
+      "weight": 19.6
+    },
+    "types": ["Water"],
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "description": "The target is blasted with a forceful shot of water."
+      },
+      {
+        "name": "Confusion",
+        "description": "The target is hit by a weak telekinetic force."
+      }
+    ],
+    "evolutions": ["Golduck"]
+  },
+  {
+    "name": "Geodude",
+    "size": {
+      "height": 0.4,
+      "weight": 20.0
+    },
+    "types": ["Rock", "Ground"],
+    "attacks": [
+      {
+        "name": "Rock Throw",
+        "description": "The user picks up and throws a small rock at the target."
+      },
+      {
+        "name": "Tackle",
+        "description": "A physical attack in which the user charges and slams into the target."
+      }
+    ],
+    "evolutions": ["Graveler", "Golem"]
+  },
+  {
+    "name": "Cubone",
+    "size": {
+      "height": 0.4,
+      "weight": 6.5
+    },
+    "types": ["Ground"],
+    "attacks": [
+      {
+        "name": "Bone Club",
+        "description": "The user clubs the target with a bone."
+      },
+      {
+        "name": "Headbutt",
+        "description": "The user sticks out its head and attacks by charging straight into the target."
+      }
+    ],
+    "evolutions": ["Marowak"]
+  },
+  {
+    "name": "Magnemite",
+    "size": {
+      "height": 0.3,
+      "weight": 6.0
+    },
+    "types": ["Electric", "Steel"],
+    "attacks": [
+      {
+        "name": "Thundershock",
+        "description": "A jolt of electricity crashes down on the target."
+      },
+      {
+        "name": "Tackle",
+        "description": "A physical attack in which the user charges and slams into the target."
+      }
+    ],
+    "evolutions": ["Magneton", "Magnezone"]
+  },
+  {
+    "name": "Gastly",
+    "size": {
+      "height": 1.3,
+      "weight": 0.1
+    },
+    "types": ["Ghost", "Poison"],
+    "attacks": [
+      {
+        "name": "Lick",
+        "description": "The target is licked with a long tongue, causing damage."
+      },
+      {
+        "name": "Night Shade",
+        "description": "The user makes the target see a frightening mirage."
+      }
+    ],
+    "evolutions": ["Haunter", "Gengar"]
+  },
+  {
+    "name": "Onix",
+    "size": {
+      "height": 8.8,
+      "weight": 210.0
+    },
+    "types": ["Rock", "Ground"],
+    "attacks": [
+      {
+        "name": "Rock Throw",
+        "description": "The user picks up and throws a small rock at the target."
+      },
+      {
+        "name": "Tackle",
+        "description": "A physical attack in which the user charges and slams into the target."
+      }
+    ],
+    "evolutions": ["Steelix"]
+  },
+  {
+    "name": "Eevee",
+    "size": {
+      "height": 0.3,
+      "weight": 6.5
+    },
+    "types": ["Normal"],
+    "attacks": [
+      {
+        "name": "Tackle",
+        "description": "A physical attack in which the user charges and slams into the target."
+      },
+      {
+        "name": "Tail Whip",
+        "description": "The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat."
+      }
+    ],
+    "evolutions": ["Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbreon", "Leafeon", "Glaceon", "Sylveon"]
+  }
+]
