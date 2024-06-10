@@ -8,28 +8,29 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.collections.FXCollections?>
-<?import java.lang.String?>
 
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="org.pokedex.pokedex.controllers.PokemonTableController">
     <top>
-        <VBox alignment="CENTER">
+        <VBox alignment="CENTER" >
             <Label text="Pokedex" style="-fx-font-size: 32px; -fx-font-weight: bold; -fx-padding: 10px;" />
-            <ComboBox fx:id="typeFilter" promptText="Select Type">
-                <items>
-                    <FXCollections fx:factory="observableArrayList">
-                        <!-- Add all available Pokemon types here -->
-                    </FXCollections>
-                </items>
-            </ComboBox>
+            <VBox alignment="CENTER" spacing="10.0">
+                <Button text="Show Attack List" onAction="#showAttackList" styleClass="btn, btn-sm, btn-info" />
+                <ComboBox fx:id="typeFilter" promptText="Select Type" styleClass="btn, btn-xs, btn-default" >
+                    <items>
+                        <FXCollections fx:factory="observableArrayList"> </FXCollections>
+                    </items>
+                </ComboBox>
+            </VBox>
         </VBox>
     </top>
     <center>
         <ScrollPane hbarPolicy="NEVER" vbarPolicy="ALWAYS" fitToWidth="true">
-            <HBox alignment="CENTER" fillHeight="true">
-                <TilePane fx:id="tilePane" hgap="10" vgap="10" alignment="CENTER" prefColumns="3" tileAlignment="CENTER" prefTileWidth="300" prefTileHeight="400" />            </HBox>
+            <HBox alignment="CENTER">
+                <TilePane fx:id="tilePane" hgap="10" vgap="10" alignment="CENTER" prefColumns="3" prefTileWidth="300" prefTileHeight="400" />            </HBox>
         </ScrollPane>
     </center>
 </BorderPane>

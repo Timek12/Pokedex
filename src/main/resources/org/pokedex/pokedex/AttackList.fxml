@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.control.Label?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      alignment="CENTER"
+      >
+    <Label text="Attack List" style="-fx-font-size: 32px; -fx-font-weight: bold; -fx-padding: 10px;" />
+
+    <ListView fx:id="attackList" style="-fx-padding: 10px;"/>
+    <HBox alignment="CENTER" style="-fx-padding: 20px 0px 0px 0px;">
+<!--        controller is loaded in AttackListController class, false error -->
+        <Button text="Close" onAction="#close" minWidth="200" minHeight="50" styleClass="btn, btn-lg, btn-primary"/>
+    </HBox>
+</VBox>

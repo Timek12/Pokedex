@@ -4,12 +4,16 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+import org.kordamp.bootstrapfx.BootstrapFX;
 import org.pokedex.pokedex.models.Attack;
 import org.pokedex.pokedex.models.PokemonSpecies;
 import org.pokedex.pokedex.services.DataLoader;
@@ -19,6 +23,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+
+/**
+ * This controller is responsible for managing the main Pokemon table.
+ * It fetches the list of Pokemon from a JSON file (data.json) and displays them in a TilePane.
+ */
 public class PokemonTableController {
     @FXML
     private TilePane tilePane;
@@ -102,5 +111,20 @@ public class PokemonTableController {
 
             tilePane.getChildren().add(card);
         }
+    }
+
+    public void showAttackList() throws Exception {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/pokedex/pokedex/AttackList.fxml"));
+        AttackListController controller = new AttackListController(pokemonData);
+        loader.setController(controller);
+        Parent root = loader.load();
+        Scene scene = new Scene(root, 800, 600);
+        scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
+
+        Stage attackListStage = new Stage();
+        attackListStage.setTitle("Attack List");
+        attackListStage.setScene(scene);
+        attackListStage.setResizable(false);
+        attackListStage.show();
     }
 }

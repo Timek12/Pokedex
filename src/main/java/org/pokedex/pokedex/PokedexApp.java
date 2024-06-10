@@ -8,6 +8,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.kordamp.bootstrapfx.BootstrapFX;
 
+/**
+ * This class is the starting point for the Pokedex application.
+ */
 public class PokedexApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {

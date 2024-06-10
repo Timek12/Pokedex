@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+// This class converts json objects (in data.json file) to Java objects
 public class DataLoader {
     public static List<PokemonSpecies> loadPokemonData(String filePath) throws IOException {
         // Create a tool for converting between Java objects and JSON

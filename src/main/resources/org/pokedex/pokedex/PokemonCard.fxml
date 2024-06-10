@@ -5,7 +5,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:id="pokemonCard" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10.0" style="-fx-border-color: black; -fx-border-width: 2; -fx-padding: 10; -fx-background-color: #f0f0f0;" maxWidth="300">
+<VBox fx:id="pokemonCard" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10.0" style="-fx-border-color: black; -fx-border-width: 2; -fx-padding: 10; -fx-background-color: #f0f0f0; " maxWidth="300" >
     <children>
         <ImageView fx:id="pokemonImage" fitHeight="120.0" fitWidth="100.0" style="-fx-background-color: #f0f0f0;" />
         <Label fx:id="pokemonName" text="Pokemon Name">
